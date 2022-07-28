@@ -1,0 +1,75 @@
+{
+    // Workbench
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Dracula",
+    "workbench.productIconTheme": "fluent-icons",
+  
+    // Editor settings
+    "editor.fontSize": 14,
+    "editor.fontFamily": "Fira Code",
+    "editor.lineHeight": 26,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 120,
+    "terminal.integrated.fontSize": 14,
+    "editor.tabSize": 4,
+    "editor.fontLigatures": true,
+    "editor.renderLineHighlight": "gutter",
+    "editor.rulers": [80, 120],
+    "editor.parameterHints.enabled": false,
+    "editor.semanticHighlighting.enabled": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+    },
+    "eslint.validate": ["javascript"],
+  
+    // VSCode stuff
+    "breadcrumbs.enabled": true,
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "typescript.updateImportsOnFileMove.enabled": "never",
+  
+    // Emmet
+    "emmet.syntaxProfiles": { "javascript": "jsx" },
+    "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  
+    // Extensions
+    "material-icon-theme.folders.associations": {
+      "domain": "core",
+      "infra": "app",
+      "main": "public",
+      "presentation": "connection",
+      "cryptography": "secure",
+      "entities": "class",
+      "repositories": "mappings",
+      "protocols": "resource",
+      "useCases": "components",
+      "subcomponents": "components",
+      "adapters": "connection",
+      "factories": "container",
+      "globals": "global",
+      "ui": "views"
+    },
+    "material-icon-theme.files.associations": {
+      "ormconfig.json": "database",
+      "tsconfig.json": "tune",
+      ".lintstagedrc.json": "tune"
+    },
+  
+    // Languages
+    "typescript.tsserver.log": "verbose",
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.inlineSuggest.enabled": true,
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.minimap.enabled": false,
+    // "[prisma]": {
+    //   "editor.defaultFormatter": "Prisma.prisma"
+    // }
+  }
+  
